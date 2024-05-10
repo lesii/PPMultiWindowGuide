@@ -9,7 +9,7 @@
     - [4.Creat Display FullWindow](#4creat-display-fullwindow)
   - [Create a UserWidget control handle](#create-a-userwidget-control-handle)
     - [1.Create Handle By Type](#1create-handle-by-type)
-    - [1.Add Widget and return handle](#1add-widget-and-return-handle)
+    - [2.Add Widget and return handle](#2add-widget-and-return-handle)
   - [Window access function](#window-access-function)
     - [1.Add Handle](#1add-handle)
     - [2.Remove Handle](#2remove-handle)
@@ -27,7 +27,7 @@
   - [Blueprint function Libraray](#blueprint-function-libraray)
     - [1.Get Window Handle](#1get-window-handle)
     - [2.Clear All Windows](#2clear-all-windows)
-    - [2.Close Window](#2close-window)
+    - [3.Close Window](#3close-window)
   - [Monitor](#monitor)
     - [FPPDisplayInfo Define](#fppdisplayinfo-define)
     - [1.Get Primary Info](#1get-primary-info)
@@ -118,6 +118,10 @@
 
 </br>
 
+[Back To Catalog](#pp-multi-window)
+
+</br>
+
 ## Create a UserWidget control handle
 
 ### 1.Create Handle By Type
@@ -132,7 +136,7 @@
 
 </br>
 
-### 1.Add Widget and return handle
+### 2.Add Widget and return handle
 
 ![node](../../assets/blueprint/add_widget.png)
 
@@ -143,7 +147,11 @@
 | WindowIdx        |   int32                | Window Idx                      |
 | Widget           |   UUserWidget*         | Widget Object pointer           |
 
-</br></br>
+</br>
+
+[Back To Catalog](#pp-multi-window)
+
+</br>
 
 ## Window access function
 
@@ -241,6 +249,8 @@
 |   :-:                 |     :-:                |   :-          |
 | InMouseCaptureMode    |   EMouseCaptureMode   |  Mouse Capture Mode   |
 
+</br>
+
 ### 10.Bind On Window Destroyed
 
 ![node](../../assets/blueprint/bind_window_destroyed.png)
@@ -251,7 +261,11 @@
 |   :-:                 |     :-:                |   :-          |
 | InHandle    |   UPMWHandle*   |  closed window handle   |
 
-</br></br>
+</br>
+
+[Back To Catalog](#pp-multi-window)
+
+</br>
 
 ## UserWidget Control Handle
 
@@ -265,7 +279,11 @@
 
 ![node](../../assets/blueprint/get_widget.png)
 
-</br></br>
+</br>
+
+[Back To Catalog](#pp-multi-window)
+
+</br>
 
 ## Blueprint function Libraray
 
@@ -287,7 +305,7 @@
 
 </br>
 
-### 2.Close Window
+### 3.Close Window
 
 ![node](../../assets/blueprint/close_window.png)
 
@@ -297,7 +315,11 @@
 |   :-:                 |     :-:                |   :-          |
 | WindowIdx             |   int32                |  Window Index   |
 
-</br></br>
+</br>
+
+[Back To Catalog](#pp-multi-window)
+
+</br>
 
 ## Monitor
 
@@ -379,7 +401,11 @@
 
 ![node](../../assets/blueprint/print_info.png)
 
-</br></br>
+</br>
+
+[Back To Catalog](#pp-multi-window)
+
+</br>
 
 ## End
 
